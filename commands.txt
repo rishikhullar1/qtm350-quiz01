@@ -1,0 +1,38 @@
+git clone https://github.com/rishikhullar1/qtm350-quiz01.git
+
+cd /Users/rishikhullar/Desktop/QTM350/qtm350-quiz01
+
+touch commands.txt
+
+git branch feature-update
+
+git checkout feature-update
+
+mkdir reports
+
+cd reports
+
+touch summary.md
+
+echo "This document provides a summary of the project updates." >> summary.md
+
+cd /Users/rishikhullar/Desktop/QTM350/qtm350-quiz01
+
+git add reports
+
+git commit -m "Add reports directory"
+
+cd reports
+
+touch file{1..3}.txt
+
+cd /Users/rishikhullar/Desktop/QTM350/qtm350-quiz01/data
+
+mv raw-data.csv input-data.csv
+
+cd /Users/rishikhullar/Desktop/QTM350/qtm350-quiz01/scripts
+
+mkdir backup
+
+cp *.py backup  
+
